@@ -8,6 +8,7 @@ import share from "@/Components/images/icon-twitter.svg";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div className="flex">
       <Image src={drawers} alt={""} />
       <div className="flex flex-col">
         <p className="">
@@ -20,15 +21,16 @@ export default function Home() {
           you make any room feel complete.
         </p>
         <div className="flex justify-between">
-          <div className="flex">
+          <div className="flex items-center justify-center">
             <Image src={avtar} alt={""}/>
             <div className="flex flex-col">
-              <p className=""></p>
-              <p className=""></p>
+              <p className="">Michelle Appleton</p>
+              <p className="">28 Jun 2020</p>
             </div>
           </div>
           <Image src={share} alt={""}/>
         </div>
+      </div>
       </div>
     </main>
   );
